@@ -1,0 +1,351 @@
+* {
+  margin: 0;
+}
+.main-container {
+  width: 1320px;
+  margin: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.banner-section::before {
+  content: "";
+  background-image: url(/resources/Banner\ Image.png);
+  height: 600px;
+  width: 1320px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  margin: 1rem;
+}
+.banner-section {
+  margin: 1rem;
+  width: 1320px;
+  height: 600px;
+  background: rgba(0, 0, 0, 0.527);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: aliceblue;
+  border-radius: 16px;
+}
+.banner-section p {
+  font-size: 32px;
+}
+.banner-section h1 {
+  font-size: 72px;
+  font-weight: 900;
+  width: 50%;
+  text-align: center;
+}
+.section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0;
+}
+.section2 h1 {
+  color: #f00;
+  font-size: 88px;
+  font-weight: 700;
+}
+.section2 p {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 1.5rem 0 10px 0;
+}
+.section2 h2 {
+  font-size: 48px;
+  font-weight: 700;
+}
+.section2 img {
+  width: 800px;
+  margin-top: 2rem;
+}
+.section3 {
+  position: relative;
+  color: aliceblue;
+  margin: 3rem 0;
+}
+.cover-photo::before {
+  content: "";
+  background-image: url(/resources/Vectorrr.png);
+  height: 600px;
+  width: 1320px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.cover-photo {
+  display: flex;
+  align-items: center;
+  height: 600px;
+  background: rgba(0, 0, 0, 0.527);
+  border-radius: 16px;
+}
+.cover-photo h1 {
+  font-size: 64px;
+  font-weight: 900;
+}
+.cover-photo p {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 2rem 0;
+}
+.section3-text {
+  padding: 2rem 6rem 2rem 6rem;
+}
+.section3-img {
+  padding: 0 6rem;
+}
+.section4 {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  width: 1320px;
+  height: 482px;
+  border-radius: 16px;
+  margin: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section4 span {
+  color: #f00;
+}
+.section4 p {
+  font-size: 32px;
+  font-weight: 600;
+  margin: 8px 0;
+}
+.section4 button {
+  background: #f00;
+  border-radius: 8px;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  padding: 8px 14px;
+  margin: 1rem;
+}
+.section5 {
+  margin: 3rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.section5-img {
+  width: 30%;
+  border: 6px solid #f00;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.section5-first-text {
+  width: 33%;
+  padding-right: 3rem;
+}
+.section5-first-text h2 {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+}
+.section5-first-text h1 {
+  font-size: 48px;
+  font-weight: 900;
+  margin: 1rem 0;
+}
+.section5-last-text {
+  padding-left: 3rem;
+}
+.section5-last-text h1 {
+  color: #f00;
+}
+.section5-last-text p {
+  margin: 1rem 0;
+}
+.section6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0;
+}
+.section6 div {
+  font-size: 24px;
+  font-weight: 500;
+}
+.section6 h1 {
+  font-size: 72px;
+  font-weight: 900;
+  margin: 1rem;
+}
+.section6 span {
+  color: #f00;
+}
+.section6 p {
+  width: 800px;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 32px;
+}
+.section7 {
+  margin: 3rem 0;
+}
+.Rectangle1-img {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  position: relative;
+}
+.Rectangle2-img {
+  position: relative;
+}
+.group75 {
+  position: absolute;
+  left: 50px;
+  bottom: 15px;
+  width: 55%;
+}
+.group44 {
+  position: absolute;
+  top: 20%;
+  right: 270px;
+}
+.section8 {
+  margin: 3rem 0;
+}
+.section8-text p {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+}
+.section8-text h1 {
+  font-size: 48px;
+  font-weight: 900;
+  margin: 8px 0;
+}
+.section8-text div {
+  font-size: 20px;
+  line-height: 32px;
+  width: 900px;
+}
+.section8-img-section {
+  margin: 1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.section8-img-section img {
+  width: 32%;
+  margin: 1rem 0;
+  border-radius: 16px;
+}
+.section8-img-section img:hover {
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  transition: 0.3s;
+}
+.section9 {
+  width: 1320px;
+  height: 616px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  margin: 3rem 0;
+}
+.section9 img {
+  width: 150px;
+  height: 150px;
+}
+.section9 h1 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin: 1rem 0;
+}
+.section9 p {
+  font-size: 20px;
+  line-height: 32px;
+  width: 60%;
+  text-align: center;
+  color: rgba(7, 2, 17, 0.6);
+}
+.input {
+  width: 648px;
+  height: 72px;
+  display: flex;
+  margin: 1.5rem 0;
+}
+input {
+  width: 70%;
+  padding: 0 1.5rem;
+  border: none !important;
+  border-radius: 50px 0 0 50px;
+}
+.input button {
+  width: 30%;
+  border: none !important;
+  border-radius: 0 50px 50px 0;
+  background: rgb(255, 0, 0);
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+.input button:hover {
+  cursor: pointer;
+  background: rgb(231, 4, 4);
+  transition: 0.3s;
+}
+footer {
+  height: 609px;
+  background: #0e0422;
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.footer-div {
+  width: 1320px;
+  margin: auto;
+  padding: 4rem 0;
+}
+.first-div {
+  display: flex;
+  justify-content: space-between;
+}
+.hr {
+  height: 0.1px;
+  background-color: #ffffff67;
+  margin: 2rem 0;
+}
+.icon-div {
+  display: flex;
+  justify-content: center;
+}
+.icon-div img {
+  margin: 2rem 1rem;
+}
+.last-div {
+  display: flex;
+  justify-content: space-between;
+}
